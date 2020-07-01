@@ -1,0 +1,92 @@
+.header {
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin: 0;
+  padding: 31px 0;
+}
+
+/* ================================================== */
+
+.header__content {
+  display: flex;
+  justify-content: flex-start;
+  width: 952px;
+  margin: 0 auto;
+}
+
+/* ================================================== */
+
+.header__logo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #00664B;
+  color: white;
+  text-decoration: none;
+  border-radius: 22.5px;
+  height: 45px;
+  width: 226px;
+  margin: 0;
+  padding: 0px 19px;
+  box-sizing: border-box;
+}
+
+/* ================================================== */
+
+.header__title {
+  font-size: 17.5px;
+  line-height: 20px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  margin: 0;
+  padding: 7px 0 0;
+  border-bottom: 1px solid;
+}
+
+/* ================================================== */
+
+.header__subtitle {
+  margin: 0;
+  padding: 0 0 7px;
+  font-size: 8.5px;
+  line-height: 9px;
+  font-weight: normal;
+  letter-spacing: 0.14em;
+}
+
+/* ================================================== */
+
+.header__icon {
+  background-image: url('../../images/doctor.svg');
+  width: 37px;
+  height: 43px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 2px 0 0 15px;
+}
+
+/* ================================================== */
+
+.header__learn-more {
+  margin: 2px 0 0 auto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: end;
+  width: 385px;
+  color: #4F4F4F;
+}
+
+/* ================================================== */
+
+.header__register {
+  margin: 1px 0 0 20px;
+  padding: 11px 24px;
+  background: linear-gradient(64.59deg, #E47BBD 12.74%, #FBB6E1 109.23%);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+}

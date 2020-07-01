@@ -1,0 +1,60 @@
+.logo {
+  color: #E47BBD;
+  width: 304px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo_footer {
+  width: 122px;
+  height: 32px;
+}
+
+/* ================================================== */
+
+.logo__icon {
+  background-image: url('../../images/pills.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 74px;
+  height: 80px;
+  margin: 0 8px 0 0;
+}
+
+.logo__icon_footer {
+  width: 30px;
+  height: 32px;
+  margin-right: 4px;
+}
+
+/* ================================================== */
+
+.logo__title {
+  margin: 0;
+  font-weight: 800;
+  font-size: 47px;
+  line-height: 55px;
+}
+
+.logo__title_footer {
+  font-size: 19px;
+  line-height: 22px;
+}
+
+/* ================================================== */
+
+.logo__subtitle {
+  margin: -6px 0 0;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 17px;
+}
+
+.logo__subtitle_footer {
+  margin-top: -2.5px;
+  font-size: 6px;
+  line-height: 7px;
+}
