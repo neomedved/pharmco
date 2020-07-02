@@ -2,7 +2,12 @@
 @import './vendor/fonts.css';
 
 @import './blocks/header/header.css';
+@import './blocks/parallelogram/parallelogram.css';
+@import './blocks/popup/popup.css';
 @import './blocks/logo/logo.css';
+@import './blocks/main/main.css';
+@import './blocks/menu/menu.css';
+@import './blocks/learn-more/learn-more.css';
 @import './blocks/footer/footer.css';
 
 body {

@@ -1,0 +1,138 @@
+.popup {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 10;
+  color: #4F4F4F;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 8px;
+  padding: 20px 22px;
+}
+
+.popup_active {
+  display: flex;
+}
+
+/* ================================================== */
+
+.popup__form {
+  background-color: white;
+  width: 466px;
+  padding: 20px 22px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/* ================================================== */
+
+.popup__title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+}
+
+/* ================================================== */
+
+.popup__info {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 0 0 20px;
+  margin: 20px 0 0;
+}
+
+/* ================================================== */
+
+.popup__confirm {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* ================================================== */
+
+.popup__label {
+  color: #E47BBD;
+  font-size: 8px;
+  line-height: 8px;
+  margin: 0 0 0 8px;
+  cursor: pointer;
+}
+
+/* ================================================== */
+
+.popup__checkbox {
+  width: 8px;
+  height: 8px;
+  border: 1px solid #BDBDBD;
+}
+
+/* ================================================== */
+
+.popup__agreement {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  margin: 20px 0;
+}
+
+.popup__agreement_inactive {
+  display: none;
+}
+
+/* ================================================== */
+
+.popup__regular {
+  font-weight: normal;
+}
+
+/* ================================================== */
+
+.popup__bold {
+  font-weight: bold;
+  font-size: inherit;
+}
+
+/* ================================================== */
+
+.popup__subtitle {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+/* ================================================== */
+
+.popup__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0;
+}
+
+/* ================================================== */
+
+.popup__button {
+  width: 200px;
+  box-sizing: border-box;
+  padding: 10px 13px;
+  border-radius: 100px;
+  border: 1px solid #E47BBD;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.popup__button_left {
+  color: #E47BBD;
+  background-color: white;
+}
+
+.popup__button_right {
+  color: white;
+  background-color: #E47BBD;
+}

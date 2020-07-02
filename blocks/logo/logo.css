@@ -1,5 +1,7 @@
 .logo {
   color: #E47BBD;
+  background-color: #FCF3F977;
+  border-radius: 8px;
   width: 304px;
   height: 80px;
   display: flex;

@@ -19,3 +19,19 @@
   font-weight: 800;
   font-style: normal;
 }
+
+/* ================================================== */
+
+@font-face {
+  font-family: 'Roboto';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("./fonts/roboto-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: 'Roboto';
+font-style:  normal;
+font-weight: 500;
+src: url("./fonts/roboto-medium-webfont.woff") format("woff");
+}

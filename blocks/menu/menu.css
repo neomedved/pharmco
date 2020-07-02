@@ -1,0 +1,29 @@
+.menu {
+  padding: 19px 22px 21px;
+  background-color: white;
+  border-radius: 8px;
+  color: #4F4F4F;
+  font-size: 12px;
+  line-height: 16px;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ================================================== */
+
+.menu__regular {
+  margin: 9px 0 0;
+  font-weight: normal;
+}
+
+.menu__regular_active {
+  color: #E47BBD;
+}
+
+/* ================================================== */
+
+.menu__bold {
+  font-weight: bold;
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
