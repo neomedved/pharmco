@@ -1,0 +1,42 @@
+.rezo {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 48px 32px;
+  position: relative;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ================================================== */
+
+.rezo__back {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-image: url('../../images/back.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* ================================================== */
+
+.rezo__title {
+  font-size: inherit;
+  font-weight: normal;
+  margin: 0 0 12px;
+}
+
+/* ================================================== */
+
+.rezo__bold {
+  font-weight: bold;
+}
+
+/* ================================================== */
+
+.rezo__regular {
+  font-weight: normal;
+  margin: 0;
+}

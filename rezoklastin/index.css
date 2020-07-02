@@ -8,6 +8,9 @@
 @import '../blocks/main/main.css';
 @import '../blocks/menu/menu.css';
 @import '../blocks/learn-more/learn-more.css';
+@import '../blocks/rezo/rezo.css';
+@import '../blocks/content/content.css';
+@import '../blocks/table/table.css';
 @import '../blocks/footer/footer.css';
 
 body {

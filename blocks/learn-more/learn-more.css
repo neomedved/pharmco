@@ -1,4 +1,6 @@
 .learn-more {
+  display: block;
+  text-decoration: none;
   width: 100%;
   margin: 27px 0 20px;
   padding: 11px 0;
@@ -12,4 +14,12 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 18px;
+}
+
+.learn-more_rezo {
+  width: auto;
+  margin: 33px 112px -16px 88px;
+  background-color: white;
+  color: #E47BBD;
+  border: 1px solid #E47BBD;
 }

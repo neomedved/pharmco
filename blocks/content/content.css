@@ -1,0 +1,64 @@
+.content {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.content_osteo {
+  color: #333333;
+}
+
+/* ================================================== */
+
+.content__block {
+  padding: 48px 32px;
+}
+
+.content__block:nth-of-type(2n) {
+  background-color: #F8F8F8;
+}
+
+/* ================================================== */
+
+.content__bold {
+  font-weight: bold;
+  font-size: inherit;
+  margin: 0;
+}
+
+.content__bold_osteo {
+  margin: 12px 0 0;
+}
+
+.content__bold_osteo:first-child {
+  margin: 0;
+}
+
+
+/* ================================================== */
+
+.content__regular {
+  font-weight: normal;
+  margin: 0;
+}
+
+.content__regular_osteo {
+  margin: 12px 0 0;
+}
+
+.content__regular_osteo:first-child {
+  margin: 0;
+}
+
+/* ================================================== */
+
+.content__list {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+  list-style-type: "•\2009";
+}
+
+.content__list_osteo {
+  list-style-type: "\2013\2009";
+  margin: 12px 0 0;
+}

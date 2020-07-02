@@ -1,0 +1,36 @@
+.ref {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 20px 0 0;
+}
+
+.ref_rezo {
+  width: 206px;
+  margin: 16px 0 0 auto;
+}
+
+/* ================================================== */
+
+.ref__icon {
+  width: 25px;
+  height: 25px;
+  background-image: url('../../images/book.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
+
+/* ================================================== */
+
+.ref__text {
+  color: #BDBDBD;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  margin: 1px 0 0 9px;
+}
+
+.ref__text_margin {
+  margin-top: 5px;
+}

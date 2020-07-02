@@ -1,0 +1,36 @@
+.table {
+  width: auto;
+  margin: 12px -8px;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  border-spacing: 8px;
+}
+
+/* ================================================== */
+
+.table__head {
+  font-weight: normal;
+  border: 1px solid #D0D0D0;
+  padding: 9px 0;
+  box-sizing: border-box;
+}
+
+.table__head:last-of-type {
+  width: 334px;
+}
+
+.table__head:first-of-type {
+  width: 218px;
+}
+
+/* ================================================== */
+
+.table__cell {
+  background-color: #F7F7F7;
+  padding: 9px 0;
+}
+
+.table__row:nth-of-type(2n+1) .table__cell {
+  background-color: #E7E5E5;
+}

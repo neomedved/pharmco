@@ -1,6 +1,7 @@
 .main {
   width: 952px;
   margin: 124px auto 0;
+  color: #4F4F4F;
 }
 
 /* ================================================== */
@@ -20,4 +21,5 @@
   box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
+  background-color: white;
 }
