@@ -23,3 +23,28 @@
   color: #E47BBD;
   border: 1px solid #E47BBD;
 }
+
+@media screen and (max-width: 320px) {
+  .learn-more {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px 0 9px;
+    width: 146px;
+    margin: 0;
+    flex-shrink: 0;
+  }
+
+  .learn-more_rezo {
+    visibility: visible;
+    width: 280px;
+    padding: 11px 0;
+    position: absolute;
+    bottom: -159px;
+    left: 20px;
+    right: 20px;
+    font-size: 16px;
+    line-height: 18px;
+    color: white;
+    background-color: #E47BBD;
+  }
+}
